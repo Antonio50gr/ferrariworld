@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-4xl font-bold leading-tight">
           Desde los clásicos icónicos hasta las últimas innovaciones en velocidad y diseño. Explora nuestra colección y siente la pasión por Ferrari.
           </h1>
-        
+        {/*
           <div className="flex gap-8 mt-6">
             <button className="bg-red-600 text-2xl py-6 px-12 rounded-md hover:scale-95 transition duration-150 ease-out">
               Explora la gama ferrari 
@@ -30,6 +30,7 @@ const Hero = () => {
               Ver coches
             </button>
           </div>
+            */}
         </div>
       </div>
 
