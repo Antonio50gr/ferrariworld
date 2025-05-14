@@ -1,25 +1,22 @@
-import React from 'react'
-
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar'; // Asegúrate de importar tu Navbar
 import Home from './pages/Home';
 import About from './pages/About';
 import Cars from './pages/Cars';
-import Gallery from './pages/Gallery';
 
 const App = () => {
   return (
-    <>
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/cars" element={<Cars/>}/>
-      <Route path="/gallery" element={<Gallery/>}/>
-    </Routes>
+      <Navbar />  {/* Asegúrate de que Navbar esté dentro de BrowserRouter */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cars" element={<Cars />} />
+      </Routes>
     </BrowserRouter>
-    </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 

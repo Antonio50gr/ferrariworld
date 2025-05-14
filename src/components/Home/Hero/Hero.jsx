@@ -17,24 +17,12 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
 
         {/* Contenido encima de la imagen */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 ">
+        <div className="absolute bottom-20 left-0 w-full text-center text-white px-6 py-6">
           <h1 className="text-4xl lg:text-4xl font-bold leading-tight">
-          Desde los clásicos icónicos hasta las últimas innovaciones en velocidad y diseño. Explora nuestra colección y siente la pasión por Ferrari.
+            Desde los clásicos icónicos hasta las últimas innovaciones en velocidad y diseño. Explora nuestra colección y siente la pasión por Ferrari.
           </h1>
-        {/*
-          <div className="flex gap-8 mt-6">
-            <button className="bg-red-600 text-2xl py-6 px-12 rounded-md hover:scale-95 transition duration-150 ease-out">
-              Explora la gama ferrari 
-            </button>
-            <button className="border-2 border-red-600 text-2xl py-6 px-12 rounded-md hover:bg-amber-600 transition duration-200 ease-linear">
-              Ver coches
-            </button>
-          </div>
-            */}
         </div>
       </div>
-
-
 
       {/* Nueva Sección */}
       <section className="bg-gray-100 py-20 px-6 text-center">
@@ -59,11 +47,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-       {/* Nueva Sección */}
-
-
-
-       
+      {/* Nueva Sección */}
     </div>
   );
 };
