@@ -26,7 +26,7 @@ const Footer = () => {
               to="/about"
               className="hover:text-white transition duration-200"
             >
-              About us
+              Sobre nosotros
             </Link>
             <Link
               to="/cars"
@@ -34,25 +34,20 @@ const Footer = () => {
             >
               Coches
             </Link>
-            <Link
-              to="/gallery"
-              className="hover:text-white transition duration-200"
-            >
-              Galería
-            </Link>
+
           </div>
         </div>
 
         <div>
           <h3 className="text-white text-lg font-semibold mb-3">Síguenos</h3>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white text-xl">
+            <a href="https://www.facebook.com/Ferrari" className="hover:text-white text-xl">
               <FaFacebook />
             </a>
-            <a href="#" className="hover:text-white text-xl">
+            <a href="https://x.com/ScuderiaFerrari?" className="hover:text-white text-xl">
               <FaTwitter />
             </a>
-            <a href="#" className="hover:text-white text-xl">
+            <a href="https://www.instagram.com/ferrari/" className="hover:text-white text-xl">
               <FaInstagram />
             </a>
           </div>
